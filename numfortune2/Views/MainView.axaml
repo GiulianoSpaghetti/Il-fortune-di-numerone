@@ -1,0 +1,30 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="clr-namespace:numfortune2.ViewModels"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="numfortune2.Views.MainView"
+             x:DataType="vm:MainViewModel">
+  <Design.DataContext>
+    <!-- This only sets the DataContext for the previewer in an IDE,
+         to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
+    <vm:MainViewModel />
+  </Design.DataContext>
+
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="15" />
+			<RowDefinition />
+			<RowDefinition />
+			<RowDefinition />
+			<RowDefinition />
+			<RowDefinition />
+		</Grid.RowDefinitions>
+        <TextBox Grid.Row="1" x:Name="cookie" AcceptsReturn="true" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center" IsEnabled="false"/>
+		<Button Grid.Row="2" x:Name="btnCookie" Content="Nuovo Biscotto" HorizontalAlignment="Center" VerticalAlignment="Center" Click="GetNewCookie_Click"/>
+		<TextBlock Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Text="ⓒ Giulio Sorrentino 2025" TextWrapping="Wrap"/>
+		<TextBlock Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" Text="Il server è dato da Giulio Sorrentino e contiene le barzellette della vecchia società Buongiorno." TextWrapping="Wrap" />
+		<TextBlock Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center" Text="This software is under MIT and is distribuited free. If you paid or you obtained the sources you are be scammed." TextWrapping="Wrap" />
+	</Grid>
+</UserControl>

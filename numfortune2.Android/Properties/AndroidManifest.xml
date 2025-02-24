@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="internalOnly" package="org.altervista.numerone.fortune" android:versionCode="12" android:versionName="1.0">
+	<uses-permission android:name="android.permission.INTERNET" />
+	<application android:label="Il fortune di numerone" android:icon="@drawable/icon" />
+</manifest>
