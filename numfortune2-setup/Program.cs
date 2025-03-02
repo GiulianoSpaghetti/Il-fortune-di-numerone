@@ -7,14 +7,14 @@ namespace numfortune_setup
     {
         static void Main()
         {
-            Project project = new Project("Il fortune di numerone",
+            var project = new Project("Il fortune di numerone",
                               new Dir(@"[ProgramFiles64Folder]\\numfortune2",
                                   new DirFiles(@"*.*"),
                                   new Dir("runtimes",
-                                      new Dir("win-arm64",
+                                      new Dir("win-x64",
                                             new Dir("native",
-                                                new File("runtimes\\win-arm64\\native\\libHarfBuzzSharp.dll"),
-                                                new File("runtimes\\win-arm64\\native\\libSkiaSharp.dll")
+                                                new File("runtimes\\win-x64\\native\\libHarfBuzzSharp.dll"),
+                                                new File("runtimes\\win-x64\\native\\libSkiaSharp.dll")
                                             )
                                         )
                                     )
@@ -27,10 +27,10 @@ namespace numfortune_setup
 
             project.GUID = new Guid("C4FEB52B-82C3-4E05-967F-4484633EA105");
             project.Version = new Version("1.0");
-            project.Platform = Platform.arm64;
-            project.SourceBaseDir = "D:\\source\\numfortune2\\numfortune2.Desktop\\bin\\Release\\net9.0-windows10.0.26100.0";
+            project.Platform = Platform.x64;
+            project.SourceBaseDir = "E:\\source\\numfortune2\\numfortune2.Desktop\\bin\\Release\\net9.0-windows10.0.26100.0";
             project.LicenceFile = "MIT.rtf";
-            project.OutDir = "D:\\";
+            project.OutDir = "E:\\";
             project.ControlPanelInfo.Manufacturer = "Giulio Sorrentino";
             project.ControlPanelInfo.Name = "il fortune in avalonia e coi cookie italiani";
             project.ControlPanelInfo.HelpLink = "https://giulianospaghetti.altervista.org";

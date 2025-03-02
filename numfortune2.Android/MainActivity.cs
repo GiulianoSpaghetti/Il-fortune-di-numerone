@@ -4,6 +4,7 @@ using Android.Content.PM;
 using Avalonia;
 using Avalonia.Android;
 using Avalonia.ReactiveUI;
+
 namespace numfortune2.Android;
 
 [Activity(

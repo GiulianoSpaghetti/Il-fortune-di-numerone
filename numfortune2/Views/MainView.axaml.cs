@@ -1,12 +1,13 @@
 ﻿using Avalonia.Controls;
 using Avalonia.Interactivity;
+using Avalonia.Platform.Storage;
 using System;
 
 namespace numfortune2.Views;
 
 public partial class MainView : UserControl
 {
-    public static MySqlConnector.MySqlConnection conn = new("server=numeronesoft.ddns.net;user=guest;database=barzellette;");
+    public static MySqlConnector.MySqlConnection conn = new("server=numeronesoft.ddns.net;user=guest;database=barzellette;port=3306");
     public static MySqlConnector.MySqlCommand cmd;
     public static MySqlConnector.MySqlDataReader reader;
     public static int max;
@@ -46,6 +47,11 @@ public partial class MainView : UserControl
 
 
     public void GetNewCookie_Click(Object sender, RoutedEventArgs e) => cookie.Text = GetCookie();
+    public void Info_Click(Object sender, RoutedEventArgs e)
+    {
+        ILauncher launcher = TopLevel.GetTopLevel(this).Launcher;
+        launcher.LaunchUriAsync(new Uri("https://github.com/giulianospaghetti/il-fortune-di-numerone"));
+    }
 
     private String GetCookie()
     {

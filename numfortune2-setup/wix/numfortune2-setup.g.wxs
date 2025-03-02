@@ -182,15 +182,15 @@
         </Component>
 
         <Directory Id="runtimes" Name="runtimes">
-          <Directory Id="win2darm64_" Name="win-arm64">
+          <Directory Id="win2dx64_" Name="win-x64">
             <Directory Id="native" Name="native">
 
-              <Component Id="Component.libHarfBuzzSharp.dll_2789126362" Guid="c4feb52b-82c3-4e05-967f-44846597d72e" Bitness="always64">
-                <File Id="libHarfBuzzSharp.dll_2789126362" Source="runtimes\win-arm64\native\libHarfBuzzSharp.dll" />
+              <Component Id="Component.libHarfBuzzSharp.dll_3640885429" Guid="c4feb52b-82c3-4e05-967f-4484ed6465eb" Bitness="always64">
+                <File Id="libHarfBuzzSharp.dll_3640885429" Source="runtimes\win-x64\native\libHarfBuzzSharp.dll" />
               </Component>
 
-              <Component Id="Component.libSkiaSharp.dll_1753968524" Guid="c4feb52b-82c3-4e05-967f-4484df5eb57d" Bitness="always64">
-                <File Id="libSkiaSharp.dll_1753968524" Source="runtimes\win-arm64\native\libSkiaSharp.dll" />
+              <Component Id="Component.libSkiaSharp.dll_297367696" Guid="c4feb52b-82c3-4e05-967f-44840addbf6d" Bitness="always64">
+                <File Id="libSkiaSharp.dll_297367696" Source="runtimes\win-x64\native\libSkiaSharp.dll" />
               </Component>
 
             </Directory>
@@ -214,7 +214,7 @@
 
     <WixUI Id="WixUI_Minimal" xmlns="http://wixtoolset.org/schemas/v4/wxs/ui" />
 
-    <WixVariable Id="WixUILicenseRtf" Value="D:\source\numfortune2\numfortune2.Desktop\bin\Release\net9.0-windows10.0.26100.0\MIT.rtf" />
+    <WixVariable Id="WixUILicenseRtf" Value="E:\source\numfortune2\numfortune2.Desktop\bin\Release\net9.0-windows10.0.26100.0\MIT.rtf" />
 
     <UIRef Id="WixUI_ErrorProgressText" />
 
@@ -263,8 +263,8 @@
       <ComponentRef Id="Component.System.Reactive.dll_4192094933" />
       <ComponentRef Id="Component.Tmds.DBus.Protocol.dll_3970772549" />
       <ComponentRef Id="Component.WinRT.Runtime.dll_621102414" />
-      <ComponentRef Id="Component.libHarfBuzzSharp.dll_2789126362" />
-      <ComponentRef Id="Component.libSkiaSharp.dll_1753968524" />
+      <ComponentRef Id="Component.libHarfBuzzSharp.dll_3640885429" />
+      <ComponentRef Id="Component.libSkiaSharp.dll_297367696" />
       <ComponentRef Id="Component.Il20fortune20di20numerone_" />
     </Feature>
   </Package>

@@ -5,8 +5,8 @@
     <SupportedOSPlatformVersion>29.0</SupportedOSPlatformVersion>
     <Nullable>enable</Nullable>
     <ApplicationId>org.altervista.numerone.fortune</ApplicationId>
-    <ApplicationVersion>6</ApplicationVersion>
-    <ApplicationDisplayVersion>0.2</ApplicationDisplayVersion>
+    <ApplicationVersion>13</ApplicationVersion>
+    <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
     <AndroidPackageFormat>apk</AndroidPackageFormat>
     <AndroidEnableProfiledAot>False</AndroidEnableProfiledAot>
   </PropertyGroup>
@@ -27,14 +27,17 @@
     </AndroidResource>
   </ItemGroup>
 
-<ItemGroup>
-    <PackageReference Include="Avalonia" Version="11.2.4" />
-    <PackageReference Include="Avalonia.Android" Version="11.2.4" />
-    <PackageReference Include="Avalonia.ReactiveUI" Version="11.2.4" />
+  <ItemGroup>
+    <PackageReference Include="avalonia" Version="11.2.5" />
+    <PackageReference Include="Avalonia.Android" Version="11.2.5" />
+    <PackageReference Include="avalonia.skia" Version="11.2.5" />
     <PackageReference Include="DynamicData" Version="9.1.2" />
     <PackageReference Include="HarfBuzzSharp" Version="8.3.0.1" />
     <PackageReference Include="HarfBuzzSharp.NativeAssets.Linux" Version="8.3.0.1" />
     <PackageReference Include="HarfBuzzSharp.NativeAssets.WebAssembly" Version="8.3.0.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="9.0.2" />
+    <PackageReference Include="reactiveui" Version="20.1.63" />
     <PackageReference Include="SkiaSharp" Version="3.116.1" />
     <PackageReference Include="SkiaSharp.NativeAssets.Linux" Version="3.116.1" />
     <PackageReference Include="SkiaSharp.NativeAssets.WebAssembly" Version="3.116.1" />
@@ -43,5 +46,12 @@
     <PackageReference Include="Xamarin.AndroidX.Annotation.Experimental" Version="1.4.1.8" />
     <PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.7.0.5" />
     <PackageReference Include="Xamarin.AndroidX.Core.SplashScreen" Version="1.0.1.14" />
+    <PackageReference Include="xamarin.androidx.fragment" Version="1.8.6" />
+    <PackageReference Include="xamarin.androidx.versionedparcelable" Version="1.2.1" />
+    <PackageReference Include="xamarin.jetbrains.annotations" Version="26.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\numfortune2\numfortune2.csproj" />
   </ItemGroup>
 </Project>
