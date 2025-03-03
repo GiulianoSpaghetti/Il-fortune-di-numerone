@@ -7,12 +7,14 @@ namespace numfortune2.Views;
 
 public partial class MainView : UserControl
 {
-    public static MySqlConnector.MySqlConnection conn = new("server=numeronesoft.ddns.net;user=guest;database=barzellette;port=3306");
-    public static MySqlConnector.MySqlCommand cmd;
-    public static MySqlConnector.MySqlDataReader reader;
-    public static int max;
-    public static Random rnd;
-    public static int id;
+    internal static MySqlConnector.MySqlConnection conn = new("server=numeronesoft.ddns.net;user=guest;database=barzellette;port=3306");
+    private static MySqlConnector.MySqlCommand cmd;
+    private static MySqlConnector.MySqlDataReader reader;
+    private static int max;
+    private static Random rnd;
+    private static int id;
+    private static ILauncher? launcher=null;
+    private static Uri HomePage = new Uri("https://github.com/giulianospaghetti/il-fortune-di-numerone");
     public MainView()
     {
 
@@ -49,8 +51,9 @@ public partial class MainView : UserControl
     public void GetNewCookie_Click(Object sender, RoutedEventArgs e) => cookie.Text = GetCookie();
     public void Info_Click(Object sender, RoutedEventArgs e)
     {
-        ILauncher launcher = TopLevel.GetTopLevel(this).Launcher;
-        launcher.LaunchUriAsync(new Uri("https://github.com/giulianospaghetti/il-fortune-di-numerone"));
+        if (launcher == null)
+            launcher = TopLevel.GetTopLevel(this).Launcher;
+        launcher.LaunchUriAsync(HomePage);
     }
 
     private String GetCookie()

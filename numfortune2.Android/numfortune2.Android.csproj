@@ -28,7 +28,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="avalonia" Version="11.2.5" />
     <PackageReference Include="Avalonia.Android" Version="11.2.5" />
     <PackageReference Include="avalonia.skia" Version="11.2.5" />
     <PackageReference Include="DynamicData" Version="9.1.2" />
