@@ -6,179 +6,15 @@
     To suppress generation of this file remove `set ide=true` from the PostBuildEvent of the VS project
 </auto-generated>
 -->
-  <Package Compressed="yes" ProductCode="c4feb52b-82c3-4e05-967f-4484734ea105" Name="Il fortune di numerone" Language="1033" Version="1.0" UpgradeCode="c4feb52b-82c3-4e05-967f-4484633ea105" Manufacturer="Giulio Sorrentino" InstallerVersion="200">
+  <Package Compressed="yes" ProductCode="c4feb52b-82c3-4e05-967f-4484733ea107" Name="Il fortune di numerone" Language="1033" Version="1.0.0.1" UpgradeCode="c4feb52b-82c3-4e05-967f-4484633ea105" Manufacturer="Giulio Sorrentino" InstallerVersion="200">
     <SummaryInformation Codepage="Windows-1252" Description="Un semplice fortune teller coi cookie italiani per windows 10 e 11" />
     <Media Id="1" Cabinet="Il20fortune20di20numerone.cab" EmbedCab="yes" />
 
     <StandardDirectory Id="ProgramFiles64Folder">
       <Directory Id="INSTALLDIR" Name="numfortune2">
 
-        <Component Id="Component.Avalonia.Base.dll_2607046914" Guid="c4feb52b-82c3-4e05-967f-44847d60e8dc" Bitness="always64">
-          <File Id="Avalonia.Base.dll_2607046914" Source="Avalonia.Base.dll" />
-        </Component>
-
-        <Component Id="Component.Avalonia.Controls.dll_3562502583" Guid="c4feb52b-82c3-4e05-967f-4484c0d35fe6" Bitness="always64">
-          <File Id="Avalonia.Controls.dll_3562502583" Source="Avalonia.Controls.dll" />
-        </Component>
-
-        <Component Id="Component.Avalonia.DesignerSupport.dll_1724315383" Guid="c4feb52b-82c3-4e05-967f-4484aa622e35" Bitness="always64">
-          <File Id="Avalonia.DesignerSupport.dll_1724315383" Source="Avalonia.DesignerSupport.dll" />
-        </Component>
-
-        <Component Id="Component.Avalonia.Desktop.dll_3639385751" Guid="c4feb52b-82c3-4e05-967f-4484f6ca8758" Bitness="always64">
-          <File Id="Avalonia.Desktop.dll_3639385751" Source="Avalonia.Desktop.dll" />
-        </Component>
-
-        <Component Id="Component.Avalonia.Dialogs.dll_2317590427" Guid="c4feb52b-82c3-4e05-967f-4484d93d5fbd" Bitness="always64">
-          <File Id="Avalonia.Dialogs.dll_2317590427" Source="Avalonia.Dialogs.dll" />
-        </Component>
-
-        <Component Id="Component.Avalonia.dll_4156807757" Guid="c4feb52b-82c3-4e05-967f-448497310022" Bitness="always64">
-          <File Id="Avalonia.dll_4156807757" Source="Avalonia.dll" />
-        </Component>
-
-        <Component Id="Component.Avalonia.Fonts.Inter.dll_3754855314" Guid="c4feb52b-82c3-4e05-967f-4484afd2d5c2" Bitness="always64">
-          <File Id="Avalonia.Fonts.Inter.dll_3754855314" Source="Avalonia.Fonts.Inter.dll" />
-        </Component>
-
-        <Component Id="Component.Avalonia.FreeDesktop.dll_2192859776" Guid="c4feb52b-82c3-4e05-967f-44846b97becd" Bitness="always64">
-          <File Id="Avalonia.FreeDesktop.dll_2192859776" Source="Avalonia.FreeDesktop.dll" />
-        </Component>
-
-        <Component Id="Component.Avalonia.Markup.dll_1839578833" Guid="c4feb52b-82c3-4e05-967f-44849b1e03e6" Bitness="always64">
-          <File Id="Avalonia.Markup.dll_1839578833" Source="Avalonia.Markup.dll" />
-        </Component>
-
-        <Component Id="Component.Avalonia.Markup.Xaml.dll_1450694603" Guid="c4feb52b-82c3-4e05-967f-44847fc5f56e" Bitness="always64">
-          <File Id="Avalonia.Markup.Xaml.dll_1450694603" Source="Avalonia.Markup.Xaml.dll" />
-        </Component>
-
-        <Component Id="Component.Avalonia.Metal.dll_3013253102" Guid="c4feb52b-82c3-4e05-967f-44845be23ff6" Bitness="always64">
-          <File Id="Avalonia.Metal.dll_3013253102" Source="Avalonia.Metal.dll" />
-        </Component>
-
-        <Component Id="Component.Avalonia.MicroCom.dll_3688544652" Guid="c4feb52b-82c3-4e05-967f-448402ea25a7" Bitness="always64">
-          <File Id="Avalonia.MicroCom.dll_3688544652" Source="Avalonia.MicroCom.dll" />
-        </Component>
-
-        <Component Id="Component.Avalonia.Native.dll_4225624401" Guid="c4feb52b-82c3-4e05-967f-4484cbd93132" Bitness="always64">
-          <File Id="Avalonia.Native.dll_4225624401" Source="Avalonia.Native.dll" />
-        </Component>
-
-        <Component Id="Component.Avalonia.OpenGL.dll_1628047972" Guid="c4feb52b-82c3-4e05-967f-4484686dab73" Bitness="always64">
-          <File Id="Avalonia.OpenGL.dll_1628047972" Source="Avalonia.OpenGL.dll" />
-        </Component>
-
-        <Component Id="Component.Avalonia.ReactiveUI.dll_2111918639" Guid="c4feb52b-82c3-4e05-967f-448410c7c834" Bitness="always64">
-          <File Id="Avalonia.ReactiveUI.dll_2111918639" Source="Avalonia.ReactiveUI.dll" />
-        </Component>
-
-        <Component Id="Component.Avalonia.Remote.Protocol.dll_2779369683" Guid="c4feb52b-82c3-4e05-967f-4484a42dbd35" Bitness="always64">
-          <File Id="Avalonia.Remote.Protocol.dll_2779369683" Source="Avalonia.Remote.Protocol.dll" />
-        </Component>
-
-        <Component Id="Component.Avalonia.Skia.dll_1998311199" Guid="c4feb52b-82c3-4e05-967f-4484a696a4fc" Bitness="always64">
-          <File Id="Avalonia.Skia.dll_1998311199" Source="Avalonia.Skia.dll" />
-        </Component>
-
-        <Component Id="Component.Avalonia.Themes.Fluent.dll_1781347951" Guid="c4feb52b-82c3-4e05-967f-448413d0fe24" Bitness="always64">
-          <File Id="Avalonia.Themes.Fluent.dll_1781347951" Source="Avalonia.Themes.Fluent.dll" />
-        </Component>
-
-        <Component Id="Component.Avalonia.Vulkan.dll_1426100992" Guid="c4feb52b-82c3-4e05-967f-4484b82e38c8" Bitness="always64">
-          <File Id="Avalonia.Vulkan.dll_1426100992" Source="Avalonia.Vulkan.dll" />
-        </Component>
-
-        <Component Id="Component.Avalonia.Win32.dll_3062318648" Guid="c4feb52b-82c3-4e05-967f-448428ececa7" Bitness="always64">
-          <File Id="Avalonia.Win32.dll_3062318648" Source="Avalonia.Win32.dll" />
-        </Component>
-
-        <Component Id="Component.Avalonia.X11.dll_1891694640" Guid="c4feb52b-82c3-4e05-967f-448427c87945" Bitness="always64">
-          <File Id="Avalonia.X11.dll_1891694640" Source="Avalonia.X11.dll" />
-        </Component>
-
-        <Component Id="Component.DynamicData.dll_1352092183" Guid="c4feb52b-82c3-4e05-967f-44845dbb0730" Bitness="always64">
-          <File Id="DynamicData.dll_1352092183" Source="DynamicData.dll" />
-        </Component>
-
-        <Component Id="Component.HarfBuzzSharp.dll_1201687573" Guid="c4feb52b-82c3-4e05-967f-4484c2fb02d7" Bitness="always64">
-          <File Id="HarfBuzzSharp.dll_1201687573" Source="HarfBuzzSharp.dll" />
-        </Component>
-
-        <Component Id="Component.MicroCom.Runtime.dll_2711609797" Guid="c4feb52b-82c3-4e05-967f-44847febd70c" Bitness="always64">
-          <File Id="MicroCom.Runtime.dll_2711609797" Source="MicroCom.Runtime.dll" />
-        </Component>
-
-        <Component Id="Component.Microsoft.Extensions.DependencyInjection.Abstractions.dll_1044890468" Guid="c4feb52b-82c3-4e05-967f-44844cd9ba88" Bitness="always64">
-          <File Id="Microsoft.Extensions.DependencyInjection.Abstractions.dll_1044890468" Source="Microsoft.Extensions.DependencyInjection.Abstractions.dll" />
-        </Component>
-
-        <Component Id="Component.Microsoft.Extensions.Logging.Abstractions.dll_1735040029" Guid="c4feb52b-82c3-4e05-967f-4484bc3ff994" Bitness="always64">
-          <File Id="Microsoft.Extensions.Logging.Abstractions.dll_1735040029" Source="Microsoft.Extensions.Logging.Abstractions.dll" />
-        </Component>
-
-        <Component Id="Component.Microsoft.Windows.SDK.NET.dll_410594912" Guid="c4feb52b-82c3-4e05-967f-44849017acaa" Bitness="always64">
-          <File Id="Microsoft.Windows.SDK.NET.dll_410594912" Source="Microsoft.Windows.SDK.NET.dll" />
-        </Component>
-
         <Component Id="Component.MIT.rtf_3803581652" Guid="c4feb52b-82c3-4e05-967f-44846e00573b" Bitness="always64">
           <File Id="MIT.rtf_3803581652" Source="MIT.rtf" />
-        </Component>
-
-        <Component Id="Component.MySqlConnector.dll_1627274919" Guid="c4feb52b-82c3-4e05-967f-4484f38fc274" Bitness="always64">
-          <File Id="MySqlConnector.dll_1627274919" Source="MySqlConnector.dll" />
-        </Component>
-
-        <Component Id="Component.numfortune2.Desktop.deps.json_1687421290" Guid="c4feb52b-82c3-4e05-967f-4484c48d9abd" Bitness="always64">
-          <File Id="numfortune2.Desktop.deps.json_1687421290" Source="numfortune2.Desktop.deps.json" />
-        </Component>
-
-        <Component Id="Component.numfortune2.Desktop.dll_1828961895" Guid="c4feb52b-82c3-4e05-967f-4484b3c4747f" Bitness="always64">
-          <File Id="numfortune2.Desktop.dll_1828961895" Source="numfortune2.Desktop.dll" />
-        </Component>
-
-        <Component Id="Component.numfortune2.Desktop.exe_3784687195" Guid="c4feb52b-82c3-4e05-967f-4484db8ba546" Bitness="always64">
-          <File Id="numfortune2.Desktop.exe_3784687195" Source="numfortune2.Desktop.exe" />
-        </Component>
-
-        <Component Id="Component.numfortune2.Desktop.pdb_2299903599" Guid="c4feb52b-82c3-4e05-967f-44841d092e6f" Bitness="always64">
-          <File Id="numfortune2.Desktop.pdb_2299903599" Source="numfortune2.Desktop.pdb" />
-        </Component>
-
-        <Component Id="Component.numfortune2.Desktop.runtimeconfig.json_3031266395" Guid="c4feb52b-82c3-4e05-967f-4484ed019e1f" Bitness="always64">
-          <File Id="numfortune2.Desktop.runtimeconfig.json_3031266395" Source="numfortune2.Desktop.runtimeconfig.json" />
-        </Component>
-
-        <Component Id="Component.numfortune2.dll_4117457296" Guid="c4feb52b-82c3-4e05-967f-4484c7d7064f" Bitness="always64">
-          <File Id="numfortune2.dll_4117457296" Source="numfortune2.dll" />
-        </Component>
-
-        <Component Id="Component.numfortune2.pdb_293955976" Guid="c4feb52b-82c3-4e05-967f-44846f8fc8ef" Bitness="always64">
-          <File Id="numfortune2.pdb_293955976" Source="numfortune2.pdb" />
-        </Component>
-
-        <Component Id="Component.ReactiveUI.dll_1671092682" Guid="c4feb52b-82c3-4e05-967f-4484347c7698" Bitness="always64">
-          <File Id="ReactiveUI.dll_1671092682" Source="ReactiveUI.dll" />
-        </Component>
-
-        <Component Id="Component.SkiaSharp.dll_988386687" Guid="c4feb52b-82c3-4e05-967f-4484f64798e9" Bitness="always64">
-          <File Id="SkiaSharp.dll_988386687" Source="SkiaSharp.dll" />
-        </Component>
-
-        <Component Id="Component.Splat.dll_3075896543" Guid="c4feb52b-82c3-4e05-967f-4484760777aa" Bitness="always64">
-          <File Id="Splat.dll_3075896543" Source="Splat.dll" />
-        </Component>
-
-        <Component Id="Component.System.Reactive.dll_4192094933" Guid="c4feb52b-82c3-4e05-967f-44845a9f65d1" Bitness="always64">
-          <File Id="System.Reactive.dll_4192094933" Source="System.Reactive.dll" />
-        </Component>
-
-        <Component Id="Component.Tmds.DBus.Protocol.dll_3970772549" Guid="c4feb52b-82c3-4e05-967f-448402484f10" Bitness="always64">
-          <File Id="Tmds.DBus.Protocol.dll_3970772549" Source="Tmds.DBus.Protocol.dll" />
-        </Component>
-
-        <Component Id="Component.WinRT.Runtime.dll_621102414" Guid="c4feb52b-82c3-4e05-967f-4484d7dc0ba2" Bitness="always64">
-          <File Id="WinRT.Runtime.dll_621102414" Source="WinRT.Runtime.dll" />
         </Component>
 
         <Directory Id="runtimes" Name="runtimes">
@@ -214,55 +50,14 @@
 
     <WixUI Id="WixUI_Minimal" xmlns="http://wixtoolset.org/schemas/v4/wxs/ui" />
 
-    <WixVariable Id="WixUILicenseRtf" Value="E:\source\numfortune2\numfortune2.Desktop\bin\Release\net9.0-windows10.0.26100.0\MIT.rtf" />
+    <WixVariable Id="WixUILicenseRtf" Value="F:\source\numfortune2\numfortune2.Desktop\bin\Release\net9.0-windows10.0.26100.0\MIT.rtf" />
 
     <UIRef Id="WixUI_ErrorProgressText" />
 
     <Property Id="ARPHELPLINK" Value="https://giulianospaghetti.altervista.org" />
 
     <Feature Id="Complete" Title="Complete" Level="1" AllowAbsent="yes">
-      <ComponentRef Id="Component.Avalonia.Base.dll_2607046914" />
-      <ComponentRef Id="Component.Avalonia.Controls.dll_3562502583" />
-      <ComponentRef Id="Component.Avalonia.DesignerSupport.dll_1724315383" />
-      <ComponentRef Id="Component.Avalonia.Desktop.dll_3639385751" />
-      <ComponentRef Id="Component.Avalonia.Dialogs.dll_2317590427" />
-      <ComponentRef Id="Component.Avalonia.dll_4156807757" />
-      <ComponentRef Id="Component.Avalonia.Fonts.Inter.dll_3754855314" />
-      <ComponentRef Id="Component.Avalonia.FreeDesktop.dll_2192859776" />
-      <ComponentRef Id="Component.Avalonia.Markup.dll_1839578833" />
-      <ComponentRef Id="Component.Avalonia.Markup.Xaml.dll_1450694603" />
-      <ComponentRef Id="Component.Avalonia.Metal.dll_3013253102" />
-      <ComponentRef Id="Component.Avalonia.MicroCom.dll_3688544652" />
-      <ComponentRef Id="Component.Avalonia.Native.dll_4225624401" />
-      <ComponentRef Id="Component.Avalonia.OpenGL.dll_1628047972" />
-      <ComponentRef Id="Component.Avalonia.ReactiveUI.dll_2111918639" />
-      <ComponentRef Id="Component.Avalonia.Remote.Protocol.dll_2779369683" />
-      <ComponentRef Id="Component.Avalonia.Skia.dll_1998311199" />
-      <ComponentRef Id="Component.Avalonia.Themes.Fluent.dll_1781347951" />
-      <ComponentRef Id="Component.Avalonia.Vulkan.dll_1426100992" />
-      <ComponentRef Id="Component.Avalonia.Win32.dll_3062318648" />
-      <ComponentRef Id="Component.Avalonia.X11.dll_1891694640" />
-      <ComponentRef Id="Component.DynamicData.dll_1352092183" />
-      <ComponentRef Id="Component.HarfBuzzSharp.dll_1201687573" />
-      <ComponentRef Id="Component.MicroCom.Runtime.dll_2711609797" />
-      <ComponentRef Id="Component.Microsoft.Extensions.DependencyInjection.Abstractions.dll_1044890468" />
-      <ComponentRef Id="Component.Microsoft.Extensions.Logging.Abstractions.dll_1735040029" />
-      <ComponentRef Id="Component.Microsoft.Windows.SDK.NET.dll_410594912" />
       <ComponentRef Id="Component.MIT.rtf_3803581652" />
-      <ComponentRef Id="Component.MySqlConnector.dll_1627274919" />
-      <ComponentRef Id="Component.numfortune2.Desktop.deps.json_1687421290" />
-      <ComponentRef Id="Component.numfortune2.Desktop.dll_1828961895" />
-      <ComponentRef Id="Component.numfortune2.Desktop.exe_3784687195" />
-      <ComponentRef Id="Component.numfortune2.Desktop.pdb_2299903599" />
-      <ComponentRef Id="Component.numfortune2.Desktop.runtimeconfig.json_3031266395" />
-      <ComponentRef Id="Component.numfortune2.dll_4117457296" />
-      <ComponentRef Id="Component.numfortune2.pdb_293955976" />
-      <ComponentRef Id="Component.ReactiveUI.dll_1671092682" />
-      <ComponentRef Id="Component.SkiaSharp.dll_988386687" />
-      <ComponentRef Id="Component.Splat.dll_3075896543" />
-      <ComponentRef Id="Component.System.Reactive.dll_4192094933" />
-      <ComponentRef Id="Component.Tmds.DBus.Protocol.dll_3970772549" />
-      <ComponentRef Id="Component.WinRT.Runtime.dll_621102414" />
       <ComponentRef Id="Component.libHarfBuzzSharp.dll_3640885429" />
       <ComponentRef Id="Component.libSkiaSharp.dll_297367696" />
       <ComponentRef Id="Component.Il20fortune20di20numerone_" />

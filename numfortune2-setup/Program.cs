@@ -26,11 +26,11 @@ namespace numfortune_setup
             );
 
             project.GUID = new Guid("C4FEB52B-82C3-4E05-967F-4484633EA105");
-            project.Version = new Version("1.0");
+            project.Version = new Version("1.0.0.1");
             project.Platform = Platform.x64;
-            project.SourceBaseDir = "E:\\source\\numfortune2\\numfortune2.Desktop\\bin\\Release\\net9.0-windows10.0.26100.0";
+            project.SourceBaseDir = "F:\\source\\numfortune2\\numfortune2.Desktop\\bin\\Release\\net9.0-windows10.0.26100.0";
             project.LicenceFile = "MIT.rtf";
-            project.OutDir = "E:\\";
+            project.OutDir = "F:\\";
             project.ControlPanelInfo.Manufacturer = "Giulio Sorrentino";
             project.ControlPanelInfo.Name = "il fortune in avalonia e coi cookie italiani";
             project.ControlPanelInfo.HelpLink = "https://giulianospaghetti.altervista.org";

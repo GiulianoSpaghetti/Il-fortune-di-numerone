@@ -10,11 +10,11 @@ public partial class MainView : UserControl
     internal static MySqlConnector.MySqlConnection conn = new("server=numeronesoft.ddns.net;user=guest;database=barzellette;port=3306");
     private static MySqlConnector.MySqlCommand cmd;
     private static MySqlConnector.MySqlDataReader reader;
-    private static int max;
+    private static int max=0;
     private static Random rnd;
     private static int id;
     private static ILauncher? launcher=null;
-    private static Uri HomePage = new Uri("https://github.com/giulianospaghetti/il-fortune-di-numerone");
+    private static readonly Uri HomePage = new Uri("https://github.com/giulianospaghetti/il-fortune-di-numerone");
     public MainView()
     {
 
@@ -45,6 +45,7 @@ public partial class MainView : UserControl
         }
         rnd = new();
         cookie.Text = GetCookie();
+        tbDoppioni.Text = $"Per avere una barzelletta doppione o chiudi e riapri o premi il pulsante \"Nuovo Biscotto\" {max} volte.";
     }
 
 
