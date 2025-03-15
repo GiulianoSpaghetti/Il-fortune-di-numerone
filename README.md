@@ -2,6 +2,8 @@
 
 Il fortune teller che parla italiano
 
+:It:
+
 
 ![Napoli-Logo](https://github.com/user-attachments/assets/485755c8-376c-4778-b9ba-80f6cb204142)
 
