@@ -8,15 +8,16 @@
 
   <ItemGroup>
     <PackageReference Include="Avalonia.iOS" Version="11.2.5" />
-    <PackageReference Include="DynamicData" Version="9.1.2" />
+    <PackageReference Include="DynamicData" Version="9.2.1" />
     <PackageReference Include="HarfBuzzSharp" Version="8.3.0.1" />
     <PackageReference Include="HarfBuzzSharp.NativeAssets.Linux" Version="8.3.0.1" />
     <PackageReference Include="HarfBuzzSharp.NativeAssets.WebAssembly" Version="8.3.0.1" />
-    <PackageReference Include="reactiveui" Version="20.1.63" />
+    <PackageReference Include="reactiveui" Version="20.2.45" />
     <PackageReference Include="SkiaSharp" Version="3.116.1" />
     <PackageReference Include="SkiaSharp.NativeAssets.Linux" Version="3.116.1" />
     <PackageReference Include="SkiaSharp.NativeAssets.WebAssembly" Version="3.116.1" />
     <PackageReference Include="Splat" Version="15.3.1" />
+    <PackageReference Include="System.Text.Json" Version="9.0.3" />
   </ItemGroup>
 
   <ItemGroup>
