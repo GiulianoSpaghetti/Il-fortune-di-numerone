@@ -32,7 +32,7 @@ Il mio software, a partire dal 02-03-2025 include una label per indicare quante 
 
 ## Per windows
 
-[![winget](https://user-images.githubusercontent.com/49786146/159123313-3bdafdd3-5130-4b0d-9003-40618390943a.png)](https://marticliment.com/wingetui/share?pid=GiulioSorrentino.IlFortunedinumerone.&pname=IlFortunedinumerone&psource=Winget:%20winget)
+[![winget](https://user-images.githubusercontent.com/49786146/159123313-3bdafdd3-5130-4b0d-9003-40618390943a.png)](https://marticliment.com/unigetui/share?name=IlFortunedinumerone&id=GiulioSorrentino.IlFortunedinumerone&sourceName=winget&managerName=WinGet)
 
 ## Client testuali (fonti NON verificate ufficialmente)
 
