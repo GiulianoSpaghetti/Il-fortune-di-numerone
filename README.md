@@ -37,5 +37,7 @@ Il mio software, a partire dal 02-03-2025 include una label per indicare quante 
 ## Client testuali (fonti NON verificate ufficialmente)
 
 **https://giulianospaghetti.altervista.org/Downloads/fortune/Il_fortune_di_numerone-1.0-cui-amd64.msi** (CUI in dotnet per amd64 spulcia un cookie per volta, sono garantiti gli accenti)
+
 **https://giulianospaghetti.altervista.org/Downloads/fortune/Il_fortune_di_numerone-1.0-cui-arm64.msi** (CUI in dotnet per arm64 spulcia un cookie per volta, sono garantuti gli accenti)
+
 **https://giulianospaghetti.altervista.org/Downloads/fortune/il-fortune-di-numerone-1.0.rar** (CUI in c per amd64, spulcia un cookie per volta non sono garantiti gli accenti)
