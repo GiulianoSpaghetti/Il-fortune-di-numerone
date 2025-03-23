@@ -46,3 +46,6 @@ Il mio software, a partire dal 02-03-2025 include una label per indicare quante 
 Tramite repository
 
 Seguite le istruzioni all'indirizzo http://numeronesoft.ddns.net:8080 e scaricate il fortune di numerone cui o il fortune di numerone cui c (sono garantiti gli accenti)
+
+## Note
+Se in seguito ad aggiornamenti non installati i client dotnet riprendono a fare shock sulle ventole, provate a disinstallare il pacchetto, aggiornare all'ultimo framework e reinstallare. 
