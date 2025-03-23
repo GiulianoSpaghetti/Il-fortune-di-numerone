@@ -47,5 +47,8 @@ Tramite repository
 
 Seguite le istruzioni all'indirizzo http://numeronesoft.ddns.net:8080 e scaricate il fortune di numerone cui o il fortune di numerone cui c (sono garantiti gli accenti)
 
+## Donazioni (la banda costa, così come l'elettricità)
+https://numerone.altervista.org/donazioni.php
+
 ## Note
 Se in seguito ad aggiornamenti non installati i client dotnet riprendono a fare shock sulle ventole, provate a disinstallare il pacchetto, aggiornare all'ultimo framework e reinstallare. 
