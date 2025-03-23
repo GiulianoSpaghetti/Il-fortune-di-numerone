@@ -30,4 +30,12 @@ Il mio software, a partire dal 02-03-2025 include una label per indicare quante 
 
 [![google](https://play.google.com/intl/it_it/badges/static/images/badges/it_badge_web_generic.png)](https://play.google.com/store/apps/details?id=org.altervista.numerone.fortune)
 
-Attualmente il software è in fase di beta pubblica in attesa di sapere se il server ospitato vicino al forno regge.
+## Per windows
+
+[![winget](https://user-images.githubusercontent.com/49786146/159123313-3bdafdd3-5130-4b0d-9003-40618390943a.png)](https://marticliment.com/wingetui/share?pid=GiulioSorrentino.IlFortunedinumerone.&pname=IlFortunedinumerone&psource=Winget:%20winget)
+
+## Client testuali (fonti NON verificate ufficialmente)
+
+**https://giulianospaghetti.altervista.org/Downloads/fortune/Il_fortune_di_numerone-1.0-cui-amd64.msi** (CUI in dotnet per amd64 spulcia un cookie per volta, sono garantiti gli accenti)
+**https://giulianospaghetti.altervista.org/Downloads/fortune/Il_fortune_di_numerone-1.0-cui-arm64.msi** (CUI in dotnet per arm64 spulcia un cookie per volta, sono garantuti gli accenti)
+**https://giulianospaghetti.altervista.org/Downloads/fortune/il-fortune-di-numerone-1.0.rar** (CUI in c per amd64, spulcia un cookie per volta non sono garantiti gli accenti)
