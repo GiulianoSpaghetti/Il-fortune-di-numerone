@@ -1,13 +1,13 @@
 ﻿using System;
 using WixSharp;
 
-namespace numfortune_setup
+namespace ilfortunedinumerone_setup
 {
     internal class Program
     {
         static void Main()
         {
-            var project = new Project("Il fortune di numerone",
+            Project project = new Project("Il fortune di numerone",
                               new Dir(@"[ProgramFiles64Folder]\\numfortune2",
                                   new DirFiles(@"*.*"),
                                   new Dir("runtimes",
