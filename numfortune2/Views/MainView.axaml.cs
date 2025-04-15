@@ -30,6 +30,12 @@ public partial class MainView : UserControl
             return;
 
         }
+        catch (System.Net.Sockets.SocketException ex1) 
+        {
+            cookie.Text = ex1.Message;
+            btnCookie.IsEnabled = false;
+            return;
+        }
         cmd = new("SELECT MAX(ID) FROM Barzellette", conn);
         try
         {
@@ -41,6 +47,12 @@ public partial class MainView : UserControl
         catch (MySqlConnector.MySqlException ex)
         {
             cookie.Text = ex.Message;
+            return;
+        }
+        catch (System.Net.Sockets.SocketException ex1) 
+        {
+            cookie.Text = ex1.Message;
+            btnCookie.IsEnabled = false;
             return;
         }
         rnd = new();
@@ -74,6 +86,13 @@ public partial class MainView : UserControl
             s = ex.Message;
             btnCookie.IsEnabled = false;
         }
+        catch (System.Net.Sockets.SocketException ex1) 
+        {
+            cookie.Text = ex1.Message;
+            btnCookie.IsEnabled = false;
+            return;
+        }
+
         return s;
     }
 }
