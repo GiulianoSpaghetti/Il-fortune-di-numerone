@@ -11,6 +11,7 @@ Il fortune teller che parla italiano
 
 ![made-with-avalonia](https://github.com/user-attachments/assets/59e9bd29-2969-4d66-8fc2-d70029582169)
 [![forthebadge](https://forthebadge.com/images/badges/woo-new-release.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/built-for-android.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/works-on-my-machine.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/made-with-c-sharp.svg)](https://forthebadge.com)
 
