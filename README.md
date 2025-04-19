@@ -9,6 +9,11 @@ Il fortune teller che parla italiano
 
 ![made in parco grifeo](https://github.com/user-attachments/assets/8f3e561e-6002-4dd8-bc50-888c14a1dfe3)
 
+![made-with-avalonia](https://github.com/user-attachments/assets/59e9bd29-2969-4d66-8fc2-d70029582169)
+[![forthebadge](https://forthebadge.com/images/badges/woo-new-release.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/works-on-my-machine.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-c-sharp.svg)](https://forthebadge.com)
+
 ## Introduzione
 
 Circa 15 anni fa era in voga in Italia una newsletter chiamata "Una barzelletta al giorno" della società buongiorno.
