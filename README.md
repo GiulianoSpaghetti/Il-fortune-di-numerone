@@ -9,12 +9,6 @@ Il fortune teller che parla italiano
 
 ![made in parco grifeo](https://github.com/user-attachments/assets/8f3e561e-6002-4dd8-bc50-888c14a1dfe3)
 
-![made-with-avalonia](https://github.com/user-attachments/assets/59e9bd29-2969-4d66-8fc2-d70029582169)
-[![forthebadge](https://forthebadge.com/images/badges/woo-new-release.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/built-for-android.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/works-on-my-machine.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/made-with-c-sharp.svg)](https://forthebadge.com)
-
 ## Introduzione
 
 Circa 15 anni fa era in voga in Italia una newsletter chiamata "Una barzelletta al giorno" della società buongiorno.
@@ -36,22 +30,10 @@ Il mio software, a partire dal 02-03-2025 include una label per indicare quante 
 
 [![google](https://play.google.com/intl/it_it/badges/static/images/badges/it_badge_web_generic.png)](https://play.google.com/store/apps/details?id=org.altervista.numerone.fortune)
 
-## Per windows
+## Per windows e debian
 
-[![winget](https://user-images.githubusercontent.com/49786146/159123313-3bdafdd3-5130-4b0d-9003-40618390943a.png)](https://marticliment.com/unigetui/share?name=IlFortunedinumerone&id=GiulioSorrentino.IlFortunedinumerone&sourceName=winget&managerName=WinGet)
+[![pling](http://numeronesoft.ddns.net:8080/images/pling.png)](https://www.pling.com/p/2296522/)
 
-## Client testuali (fonti NON verificate ufficialmente)
-
-**https://giulianospaghetti.altervista.org/Downloads/fortune/Il_fortune_di_numerone-1.0-cui-amd64.msi** (CUI in dotnet per amd64 spulcia un cookie per volta, sono garantiti gli accenti)
-
-**https://giulianospaghetti.altervista.org/Downloads/fortune/Il_fortune_di_numerone-1.0-cui-arm64.msi** (CUI in dotnet per arm64 spulcia un cookie per volta, sono garantiti gli accenti)
-
-**https://giulianospaghetti.altervista.org/Downloads/fortune/il-fortune-di-numerone-1.0.rar** (CUI in c per amd64 compilato su debian, spulcia un cookie per volta non sono garantiti gli accenti)
-
-## Client testuali per debian
-Tramite repository
-
-Seguite le istruzioni all'indirizzo http://numeronesoft.ddns.net:8080 e scaricate il fortune di numerone cui o il fortune di numerone cui c (sono garantiti gli accenti)
 
 ## Donazioni (la banda costa, così come l'elettricità)
 https://numerone.altervista.org/donazioni.php
