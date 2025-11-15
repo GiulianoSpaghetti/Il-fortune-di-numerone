@@ -34,6 +34,15 @@ Il mio software, a partire dal 02-03-2025 include una label per indicare quante 
 
 [![pling](http://numeronesoft.ddns.net:8080/images/pling.png)](https://www.pling.com/p/2296522/)
 
+## Prerequisti
+
+### Windows
+https://winstall.app/apps/Microsoft.DotNet.DesktopRuntime.9
+
+### Debian
+
+https://learn.microsoft.com/it-it/linux/packages
+
 
 ## Donazioni (la banda costa, così come l'elettricità)
 https://numerone.altervista.org/donazioni.php
