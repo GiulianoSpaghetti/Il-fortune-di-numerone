@@ -9,6 +9,8 @@ Il fortune teller che parla italiano
 
 ![made in parco grifeo](https://github.com/user-attachments/assets/8f3e561e-6002-4dd8-bc50-888c14a1dfe3)
 
+Come farei leggere il readne da Gemini: https://g.co/gemini/share/aaa518dad830 , basta loggarsi con l"account Google.
+
 ## Introduzione
 
 Circa 15 anni fa era in voga in Italia una newsletter chiamata "Una barzelletta al giorno" della società buongiorno.
