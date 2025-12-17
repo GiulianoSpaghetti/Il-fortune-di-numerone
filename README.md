@@ -19,7 +19,7 @@ Io me le sono conservate con lo specifico intento di creare il fortune coi cooki
 
 ## Il server
 
-E' liberamente accessibile all'indirizzo numeronesoft.ddns.net porta 3306, con attualmente circa 500 massime, è mariadb.
+E' liberamente accessibile all'indirizzo numeronesoft.ddns.net porta 3306, con attualmente 1000 massime, è mariadb.
 Il server è stato ispezionato dalla FIMI e non presenta particolari problemi, per cui potete realizzare il vostro fortune personale, connettendovi con le librerie mysql in qualsiasi linguaggio vogliate, basta usare come user guest e come password nessuna.
 
 ## Le ultime modifiche al mio software
