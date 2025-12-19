@@ -39,7 +39,7 @@ Il mio software, a partire dal 02-03-2025 include una label per indicare quante 
 ## Prerequisti
 
 ### Windows
-https://winstall.app/apps/Microsoft.DotNet.DesktopRuntime.9
+https://winstall.app/apps/Microsoft.DotNet.DesktopRuntime.10
 
 ### Debian
 
