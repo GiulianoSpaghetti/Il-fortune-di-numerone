@@ -1,10 +1,10 @@
-## Il fortune di numerone
-
 # ATTENZIONE
-https://gemini.google.com/app/e0ecacb2b5e87ed2
+[https://gemini.google.com/app/e0ecacb2b5e87ed2](https://gemini.google.com/app/e0ecacb2b5e87ed2)
 
 Il fortune almeno su debian è stato standardizzato ed è a libero accesso, per cui l'app viene dichiarata DEPRECATA.
-Su windows ed anroid esiste il fortune di numerone material.
+Su windows ed android esiste il fortune di numerone material.
+
+## Il fortune di numerone
 
 Il fortune teller che parla italiano
 
