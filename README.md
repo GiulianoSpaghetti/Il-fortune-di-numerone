@@ -1,5 +1,11 @@
 ## Il fortune di numerone
 
+# ATTENZIONE
+https://gemini.google.com/app/e0ecacb2b5e87ed2
+
+Il fortune almeno su debian è stato standardizzato ed è a libero accesso, per cui l'app viene dichiarata DEPRECATA.
+Su windows ed anroid esiste il fortune di numerone material.
+
 Il fortune teller che parla italiano
 
 :it: La prima incarnazione seria di un fortune teller in lingua non americana. Il primo prodotto commerciale pubblicato per android che usa le api mysql invece delle api rest.
